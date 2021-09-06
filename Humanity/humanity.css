@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-size: 16px;
+}
+*{
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --main-color: #f1f51d;
+    --black-100: #757575;
+    --deep-black: #030202;
+}
+.nav-link {
+    color: var(--black-100);
+    font-weight: 500;
+}
+.nav-item{
+    padding: 0px 5px 0px;
+}
+.navbar-brand{
+    color: var(--deep-black);
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-btn{
+    font-weight: 500;
+    color: var(--deep-black);
+    padding: 10px;
+    background-color:var(--main-color);
+    border-radius: 0.5em;
+}
+
+.home-bg{
+    background-image: url(images/home-bg.jpg);
+}
